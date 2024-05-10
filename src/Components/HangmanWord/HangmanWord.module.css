@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.letter {
+  border-bottom: 8px solid #e91e63;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: transparent;
+  font-size: 30px;
+  color: #e91e63;
+  text-transform: uppercase;
+  text-align: center;
+  width: 30px;
+}
+
+@media (min-width: 750px) {
+  .container {
+    gap: 20px;
+  }
+  .letter {
+    border-bottom: 10px solid #e91e63;
+    font-size: 60px;
+    width: 55px;
+  }
+}
+
+.hide {
+  color: transparent;
+}
+
+.fail {
+  color: #273582;
+  border-bottom-color: #273582;
+}

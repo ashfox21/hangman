@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+.image {
+    height: 40vh;
+}
+
+@media (min-width: 1200px) and (min-aspect-ratio: 1/1) {
+    .container {
+        display: flex;
+        justify-content: center;
+        height: 65vh;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+}

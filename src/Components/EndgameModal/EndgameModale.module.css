@@ -1,0 +1,39 @@
+.main_titie {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.result_title {
+    width: 100%;
+}
+
+.result_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.gif_animation {
+    border-top: 5px solid #000;
+    width: 200px;
+}
+
+.text_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+@media (min-aspect-ratio: 1/1) {
+    .result_container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+    }
+}
